@@ -1,29 +1,4 @@
-// import React, { useRef } from 'react'
 
-// const Navber = () => {
-//     const navgreenraf = useRef(null)
-//   return (
-//     <div className=' z-4 flex fixed top-0 w-full items-start justify-between  '>
-//         <img  className='"top-0 lg:w-26 h-44  w-10 ' src="public/car-fotor-bg-remover-20260209022.png" alt="" />
-        
-//         <div   onMouseEnter={() => {
-//                 navgreenraf.current.style.height = '100%'
-//             }}
-//              onMouseLeave={() =>
-//             {
-//                 navgreenraf.current.style.height = '0%'
-//             }
-//         }
-//          className=' h-10 bg-black  relative w-[16vw] '>
-         
-//             <div   ref={navgreenraf} className="bg-[#D3FD50] translate-all absolute top-0 h-0 w-full"></div>
-//        <div className="relative"></div>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Navber
 import React, { useRef } from 'react'
 
 const Navber = ({ toggleNav, isNavOpen }) => {
